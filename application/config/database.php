@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.33.30',
+	'hostname' => 'localhost',
 	'username' => 'ci_user',
 	'password' => 'admin',
 	'database' => 'ci_database',
@@ -87,7 +87,7 @@ $db['default'] = array(
 	'cachedir' => '',
 	'char_set' => 'utf8',
 	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => 'localhost',
+	'swap_pre' => '',
 	'encrypt' => FALSE,
 	'compress' => FALSE,
 	'stricton' => FALSE,
